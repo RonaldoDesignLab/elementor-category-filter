@@ -1,0 +1,46 @@
+.category-filter-widget {
+    margin: 0px 0;
+    padding: 0px;
+}
+
+#category-filter {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0px !important;
+}
+
+#category-filter li {
+    margin-right: 20px;
+}
+
+#category-filter a {
+    text-decoration: none;
+    color: #333;
+}
+
+#category-filter a:hover {
+    color: #0073e6;
+}
+
+.post-item {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .post-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .post-item {
+        width: 100%;
+    }
+}
